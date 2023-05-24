@@ -1,0 +1,27 @@
+----
+
+Flow Chart for a program:
+https://www.smartdraw.com/flowchart/flowchart-symbols.htm
+
+Data Structures are containers which holds data to be processed 
+or stored for various operations
+
+PseudoCode is the best way to convey the logic of a given problem
+ at hand and best it is independent of any programming language. 
+
+int/int = int, it drops the values after decimal this happens in
+Java and C++. Either of numerator or denomicator should be float
+to get the fractional value.
+
+----
+
+Diving Deeper:
+1) Preprocessor Directive: the preprocessors are the directives/statements
+which gives instruction to the compiler to preprocess some piece of code
+before actual compilations start. It begins with #, after the code is 
+included in the code we have written the actual process of compilation
+starts.
+
+
+
+
