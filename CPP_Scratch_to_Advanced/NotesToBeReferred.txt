@@ -1,0 +1,66 @@
+----
+
+Flow Chart for a program:
+https://www.smartdraw.com/flowchart/flowchart-symbols.htm
+
+Data Structures are containers which holds data to be processed 
+or stored for various operations
+
+PseudoCode is the best way to convey the logic of a given problem
+ at hand and best it is independent of any programming language. 
+
+int/int = int, it drops the values after decimal this happens in
+Java and C++. Either of numerator or denomicator should be float
+to get the fractional value.
+
+----
+
+Diving Deeper:
+1) Preprocessor Directive: the preprocessors are the directives/statements
+which gives instruction to the compiler to preprocess some piece of code
+before actual compilations start. It begins with #, after the code is 
+included in the code we have written the actual process of compilation
+starts.
+
+2) Identifiers and Variables: Identifiers are the unique names given to 
+an object be it a value or a function name whereas Variables are also 
+Identifiers which holds certain values
+Ex:
+
+fun abc(int a, int b){
+    int avg = (a + b)/2;
+}
+
+abc, a, b, avg are all identifiers whereas a, b, avg are also Variables
+
+3) Keywords are special kind of reserved identifiers which refers to 
+objects already defined in the programming language which also have special
+meaning to the compiler, they cant be used as normal identifiers or Variables.
+
+4) If we are to pass something via the CLI we can write the main() function as
+follows:
+
+int main(int argc, char *argv[]){
+    return 0;
+}
+
+main() is not a keyword and it is not predefined but predeclared meaning we 
+dont have to declare it in a program before we use it.
+
+int fact(int n);
+
+int fact(int n){
+    ....
+}
+This is not required to be done for main().
+
+In C/C++ once the code is compiled it is linked to a small runtime library which
+calls the main() method and thus teh program starts executing
+
+5) Namespaces are used to get rid of ambihuity in case two different libraries have
+implemented the same method name.
+Ex: using namespace std  ||    using namespace cv 
+    std::print(x)              cv::print(img)
+
+
+
